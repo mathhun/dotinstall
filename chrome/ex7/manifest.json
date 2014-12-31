@@ -1,0 +1,19 @@
+{
+    "name": "My 7th Extension",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "Twitter Search",
+
+    "permissions": [
+	"tabs", "http://*/*", "contextMenus"
+    ],
+
+    "icons": {
+	"16": "icon16.gif"
+    },
+
+    "background": {
+	"scripts": ["background.js"]
+    }
+}
